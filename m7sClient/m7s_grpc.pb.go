@@ -3,7 +3,7 @@
 package m7sClient
 
 import (
-	"github.com/bigbeer1/m7sRpc/internal/server"
+	"gitee.com/dabenxiong11/m7s-rpc/internal/server"
 	grpc "google.golang.org/grpc"
 )
 

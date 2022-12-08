@@ -4,7 +4,7 @@
 package server
 
 import (
-	"github.com/bigbeer1/m7sRpc/internal/svc"
+	"gitee.com/dabenxiong11/m7s-rpc/internal/svc"
 )
 
 type M7sServer struct {
