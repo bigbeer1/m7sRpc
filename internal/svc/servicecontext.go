@@ -1,14 +1,14 @@
 package svc
 
 import (
-	"github.com/bigbeer1/m7sRpc"
+	"github.com/bigbeer1/m7sRpc/internal/config"
 )
 
 type ServiceContext struct {
-	Config m7sRpc.RedisConfig
+	Config config.RedisConfig
 }
 
-func NewServiceContext(c m7sRpc.RedisConfig) *ServiceContext {
+func NewServiceContext(c config.RedisConfig) *ServiceContext {
 	return &ServiceContext{
 		Config: c,
 	}
