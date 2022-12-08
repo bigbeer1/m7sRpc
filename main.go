@@ -2,9 +2,9 @@ package m7sRpc
 
 import (
 	"fmt"
-	"gitee.com/dabenxiong11/m7s-rpc/internal/server"
-	"gitee.com/dabenxiong11/m7s-rpc/internal/svc"
-	"gitee.com/dabenxiong11/m7s-rpc/m7sClient"
+	"github.com/bigbeer1/m7sRpc/internal/server"
+	"github.com/bigbeer1/m7sRpc/internal/svc"
+	"github.com/bigbeer1/m7sRpc/m7sClient"
 	"github.com/zeromicro/go-zero/core/service"
 	"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/zrpc"

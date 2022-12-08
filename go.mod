@@ -1,4 +1,4 @@
-module gitee.com/dabenxiong11/m7s-rpc
+module github.com/bigbeer1/m7sRpc
 
 go 1.18
 

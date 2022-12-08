@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"gitee.com/dabenxiong11/m7s-rpc"
+	"github.com/bigbeer1/m7sRpc"
 )
 
 type ServiceContext struct {
