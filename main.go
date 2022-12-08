@@ -2,15 +2,15 @@ package m7sRpc
 
 import (
 	"fmt"
+	"gitee.com/dabenxiong11/m7s-rpc/internal/server"
+	"gitee.com/dabenxiong11/m7s-rpc/internal/svc"
+	"gitee.com/dabenxiong11/m7s-rpc/m7sClient"
 	"github.com/zeromicro/go-zero/core/service"
 	"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	. "m7s.live/engine/v4"
-	"m7sRpc/internal/server"
-	"m7sRpc/internal/svc"
-	"m7sRpc/m7sClient"
 	"net/http"
 )
 
