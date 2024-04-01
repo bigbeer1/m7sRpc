@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package m7client;
+
+option go_package = "./m7client";
+
+
+// 通用空返回
+message CommonResp{
+
+}
+
+//SysUser start---------------------
+
+message TestReq {
+   string message =1;
+}
+
+message TestResp {
+  string message =1;
+}
+
+
+
+service M7
+{
+
+  // 用户登录
+  rpc Test(TestReq) returns (TestResp);
+
+
+}

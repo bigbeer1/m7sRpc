@@ -5,10 +5,10 @@ import (
 )
 
 type ServiceContext struct {
-	Config config.RedisConfig
+	Config config.Config
 }
 
-func NewServiceContext(c config.RedisConfig) *ServiceContext {
+func NewServiceContext(c config.Config) *ServiceContext {
 	return &ServiceContext{
 		Config: c,
 	}
