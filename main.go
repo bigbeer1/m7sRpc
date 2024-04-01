@@ -24,7 +24,6 @@ type M7sRpcConfig struct {
 var plugin = InstallPlugin(&M7sRpcConfig{})
 
 func (m M7sRpcConfig) OnEvent(event any) {
-	fmt.Println("6666666666")
 
 	switch event.(type) {
 	case FirstConfig:
